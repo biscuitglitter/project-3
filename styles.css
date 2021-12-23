@@ -23,6 +23,7 @@ section {
 
 nav {
     width: 300px;
+    font-weight: 600;
 }
 
 main {
@@ -33,7 +34,7 @@ main {
     width: 95%;
     height: 1.9px;
     border: 0 none;
-    background-color: blue;
+    background-color: red;
 }
 
 hr {
@@ -43,14 +44,22 @@ hr {
     margin-top: 10px;
 }
 
-.ul.two {
+section > ul {
     display: flex;
 }
 
-.ul.two > li {
-    padding: 8px;
-    aaa
+.two > li:first-child {
+    padding-left: 0px;
 }
+
+.two > li {
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+    
+
+
 
 li {
     list-style: none;
@@ -60,9 +69,9 @@ li {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: red;
 }
 
 h2, p {
-   color: blue;
+   color: red;
 }
